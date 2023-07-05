@@ -1,15 +1,15 @@
 const particlesConfig = {
     autoPlay: true,
-    background: {
-      color: {
-        value: "#000"
-      },
-      image: "",
-      position: "",
-      repeat: "",
-      size: "",
-      opacity: 1
-    },
+    // background: {
+    //   color: {
+    //     value: "#000"
+    //   },
+    //   image: "",
+    //   position: "",
+    //   repeat: "",
+    //   size: "",
+    //   opacity: 1
+    // },
     backgroundMask: {
       composite: "destination-out",
       cover: {
@@ -23,7 +23,7 @@ const particlesConfig = {
     defaultThemes: {},
     delay: 0,
     fullScreen: {
-      enable: true,
+      enable: false,
       zIndex: -1
     },
     detectRetina: true,
